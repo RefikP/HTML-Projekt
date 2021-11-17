@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cc1149b0cf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Business-Lebenslauf</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                    <i class="fas fa-bars"></i>
+                </span>
+            <a href="#" class="logo">Refik Pehlivanovic</a>
+            <ul class="main-nav" id="js-menu">
+              <li>
+                <a href="index.html" class="nav-links">ÜBER MICH</a>
+              </li>
+              <li>
+                <a href="lebenslauf.html" class="nav-links">LEBENSLAUF</a>
+              </li>
+              <li>
+                <a href="kontakt.html" class="nav-links">KONTAKT</a>
+              </li>
+            </ul>
+          </nav>
+    </header>
+    
+    <main id="kontakt">
+
+        <p id="kontakt-heading">
+            Kontakt
+        </p>
+
+            <form action="/action_page.php">
+                <div class="bccFormular">
+                    <div class="formular">
+                        <div class="formularrow">
+                            <label for="fname">Vorname:</label>
+                            <input type="text" id="" name="" value="">
+    
+    
+                        </div>
+                        <div class="formularrow">
+                            <label for="lname">Nachname:</label>
+                            <input type="text" id="" name="" value="">
+                        </div>
+                    </div>
+                    <div class="formularrow">
+                        <label for="lname">Email:</label>
+                        <input type="text" id="" name="" value="">
+                    </div>
+                    <div class="formularrow">
+                        <label for="lname">Betreff:</label>
+                        <input type="text" id="" name="" value="">
+                    </div>
+                    <div class="formularrow">
+                    <label for="lname">Nachricht:</label>
+                    <textarea></textarea>
+                    </div>
+                </div>
+                <div class="formularrow">
+    
+                </div>
+                <input type="submit" value="Submit">
+    </main>
+
+    <footer>
+        <div id="footer-left">
+            <div id="left-upper">
+                <a href="impressum.html">
+                    <p>Impressum</p>
+                </a>
+                <a href="datenschutz.html">
+                    <p>Datenschutz</p>
+                </a>
+                <a href="agb.html">
+                    <p>AGB</p>
+                </a>
+            </div>
+
+            <div id="left-lower">
+                <p>Copyright 2021 Refik Pehlivanovic</p>
+            </div>
+        </div>
+        <div id="footer-right">
+
+        </div><div id="right-col1">
+            <p>Telefon</p>
+            <p>+43 676 7221926</p>
+        </div>
+        </div><div id="right-col2">
+            <p>Email</p>
+            <a href="mailto:refik.pehlivanovic@icloud.com">Schreib mir eine E-Mail!</a>
+            </div>
+        </div><div id="right-col3">
+            <p>Socials</p>
+            <div id="social-icons">
+                <a href="https://www.facebook.com/"> <img src="fb.png" width="30" height="30"></a></img>
+                <a href="https://www.instagram.com/"> <img src="insta.png" width="=30" height="30"></a></img>
+            </div>
+        </div>
+    </footer> 
+</body>
+
+<script>
+    let mainNav = document.getElementById("js-menu");
+let navBarToggle = document.getElementById("js-navbar-toggle");
+
+navBarToggle.addEventListener("click", function() {
+  mainNav.classList.toggle("active");
+});
+
+</script>
+</html>
+
+
+<!--
+<head>
+    <title>Business-Lebenslauf</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="row1">
+        <div class="row1col1">
+            <h1>Refik Pehlivanovic</h1>
+        </div>
+        <div class="row1col2">
+            <a href="index.html">
+                <h3>ÜBER MICH</h3>
+            </a>
+            <a href="lebenslauf.html">
+                <h3>LEBENSLAUF</h3>
+            </a>
+            <a href="kontakt.html">
+                <h3>KONTAKT</h3>
+            </a>
+        </div>
+    </div>
+
+    <div class="bcc">
+
+        <div class="bccContent">
+            <p>
+                Kontakt
+            </p>
+        </div>
+
+        <form action="/action_page.php">
+            <div class="bccFormular">
+                <div class="formular">
+                    <div class="formularrow">
+                        <label for="fname">Vorname:</label>
+                        <input type="text" id="" name="" value="">
+
+
+                    </div>
+                    <div class="formularrow">
+                        <label for="lname">Nachname:</label>
+                        <input type="text" id="" name="" value="">
+                    </div>
+                </div>
+                <div class="formularrow">
+                    <label for="lname">Email:</label>
+                    <input type="text" id="" name="" value="">
+                </div>
+                <div class="formularrow">
+                    <label for="lname">Betreff:</label>
+                    <input type="text" id="" name="" value="">
+                </div>
+                <div class="formularrow">
+                <label for="lname">Nachricht:</label>
+                <textarea></textarea>
+                </div>
+            </div>
+            <div class="formularrow">
+
+            </div>
+            <input type="submit" value="Submit">
+
+    </div>
+    </form>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+    <footer>
+        <div class="footerCol1">
+            <div class="footerLeftRow1">
+                <a href="impressum.html">
+                    <p>Impressum</p>
+                </a>
+                <a href="datenschutz.html">
+                    <p>Datenschutz</p>
+                </a>
+                <a href="agb.html">
+                    <p>AGB</p>
+                </a>
+            </div>
+
+            <div class="footerLeftRow2">
+                <p>Copyright 2021 Refik Pehlivanovic</p>
+            </div>
+
+
+        </div>
+
+        <div class="footerCol2">
+            <div class="footerRightRow1">
+                <p>Telefon</p>
+                <p>E-Mail</p>
+                <p>Socials</p>
+            </div>
+
+            <div class="footerRightRow2">
+                <p>+43 676 7221926</p>
+                <p>refik.pehlivanovic@icloud.com</p>
+                <a href="https://www.facebook.com/"> <img src="fb.png" width="30" height="30"></a></img>
+                    <a href="https://www.instagram.com/"> <img src="insta.png" width="=30" height="30"></a></img>
+            </div>
+
+    </footer>
+
+
+</body>
+
+</html>

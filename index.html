@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cc1149b0cf.js" crossorigin="anonymous"></script>
+    <title>Business-Lebenslauf</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                    <i class="fas fa-bars"></i>
+                </span>
+            <a href="#" class="logo">Refik Pehlivanovic</a>
+            <ul class="main-nav" id="js-menu">
+              <li>
+                <a href="index.html" class="nav-links">ÜBER MICH</a>
+              </li>
+              <li>
+                <a href="lebenslauf.html" class="nav-links">LEBENSLAUF</a>
+              </li>
+              <li>
+                <a href="kontakt.html" class="nav-links">KONTAKT</a>
+              </li>
+            </ul>
+          </nav>
+    </header>
+
+    <main id="index">
+        <div id="main-inner" class="wrapper">
+            <div id="card" >
+                <div id="card-inner">
+                    <div id="img-container">
+                        <img src="refik2.png" class="w3-round">
+                    </div>
+                    <p id="name">
+                        Refik Pehlivanovic
+                    </p>
+                    <hr>
+
+                    <div id="card-footer">
+                        <div id="card-footer-inner">
+                            <a href="https://www.facebook.com/"><img src="fb.png" alt="fb" class="social-icon"></a>
+                            <a href="https://www.instagram.com/"><img src="insta.png" alt="insta"class="social-icon"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="text-section">
+                <h1 id="hello">
+                    Hallo
+                </h1>
+                <p class="para">
+                    Wer ich bin & was ich mache
+                </p>
+                <div id="btns-under-text-container">
+                    <a href="lebenslauf.html" >
+                        <button class="btn-under-text one"> LEBENSLAUF</button>
+                    </a>
+                    <a href="kontakt.html" >
+                        <button class="btn-under-text two">KONTAKT</button> 
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <div id="footer-left">
+            <div id="left-upper">
+                <a href="impressum.html">
+                    <p>Impressum</p>
+                </a>
+                <a href="datenschutz.html">
+                    <p>Datenschutz</p>
+                </a>
+                <a href="agb.html">
+                    <p>AGB</p>
+                </a>
+            </div>
+
+            <div id="left-lower">
+                <p>Copyright 2021 Refik Pehlivanovic</p>
+            </div>
+        </div>
+
+        <div id="footer-right">
+
+        <div id="right-col1">
+            <p>Telefon</p>
+            <p>+43 676 7221926</p>
+        </div>
+        <div id="right-col2">
+            <p>Email</p>
+            <a href="mailto:refik.pehlivanovic@icloud.com">Schreib mir eine E-Mail!</a>
+            </div>
+        <div id="right-col3">
+            <p>Socials</p>
+            <div id="social-icons">
+                <a href="https://www.facebook.com/"> <img src="fb.png" width="30" height="30"></a></img>
+                <a href="https://www.instagram.com/"> <img src="insta.png" width="=30" height="30"></a></img>
+            </div>
+        </div>
+    </div>
+    </footer> 
+
+</body>
+
+<script>
+    let mainNav = document.getElementById("js-menu");
+    let navBarToggle = document.getElementById("js-navbar-toggle");
+
+navBarToggle.addEventListener("click", function() {
+  mainNav.classList.toggle("active");
+});
+
+</script>
+
+</html>
