@@ -29,9 +29,9 @@ header {
 .main-nav {
   list-style-type: none;
   display: none;
+  margin: 0 auto;
 }
 
-.nav-links,
 .logo {
   text-decoration: none;
   color: black;
@@ -42,9 +42,15 @@ header {
 .main-nav li {
   text-align: center;
   padding: 5px;
+  margin-top: 20px;
+  margin-right: 40px;
   border: 2px solid black;
-  margin: 0 auto;
-  margin-top: 15px;
+}
+
+.nav-links {
+  color:black;
+  padding-left: 90px;
+  padding-right: 90px;
 }
 
 .logo {
@@ -74,7 +80,7 @@ header {
     padding-bottom: 0;
     align-items: center;
   }
-
+  
   .main-nav {
     display: flex;
     flex-direction: row;
@@ -82,13 +88,11 @@ header {
   }
 
   .main-nav li {
-    margin: 0;
-  }
-
-  .main-nav li {
     border: 2px solid white;
     padding: 0 15px;
+    margin: 0;
   }
+  
   .logo {
     margin-top: 0;
   }
@@ -492,7 +496,10 @@ textarea {
   width: 100%;
 }
 input[type="submit"] {
-  background: red;
+  background: white;
+  border-radius: 3px;
+  border: solid 1px black;
+
 }
 @media only screen and (max-width: 600px) {
   .bccFormular {
