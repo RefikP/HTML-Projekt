@@ -29,9 +29,9 @@ header {
 .main-nav {
   list-style-type: none;
   display: none;
-  margin: 0 auto;
 }
 
+.nav-links,
 .logo {
   text-decoration: none;
   color: black;
@@ -42,16 +42,10 @@ header {
 .main-nav li {
   text-align: center;
   padding: 5px;
-  margin-top: 20px;
-  margin-right: 40px;
   border: 2px solid black;
-}
-
-.nav-links {
-  color:black;
-  padding-left: 90px;
-  padding-right: 90px;
-  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-right: 40px;
 }
 
 .logo {
@@ -81,7 +75,7 @@ header {
     padding-bottom: 0;
     align-items: center;
   }
-  
+
   .main-nav {
     display: flex;
     flex-direction: row;
@@ -89,11 +83,13 @@ header {
   }
 
   .main-nav li {
-    border: 2px solid white;
-    padding: 0 15px;
     margin: 0;
   }
-  
+
+  .main-nav li {
+    border: 2px solid white;
+    padding: 0 15px;
+  }
   .logo {
     margin-top: 0;
   }
@@ -120,6 +116,7 @@ header {
 #card {
   max-width: 20rem;
   box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.425);
+
   margin: 2rem 0;
   padding: 3rem 0;
   background: white;
@@ -248,28 +245,23 @@ hr {
   background-color: rgb(56, 56, 148);
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 #impressum h1 {
   text-align: center;
-  color:white;
+  color: white;
+  margin-top: 60px;
 }
-#upper-text {
+
+#upper-text{
   text-align: center;
 }
 
-#lower-text {
-  margin: 0 auto;
-}
 p {
   max-width: 30rem;
-  
+  justify-content: center;
 }
-#lower-text {
-  padding-top: 2rem;
-  text-align: center;
-}
+
 
 /*datenschutz */
 
@@ -343,18 +335,17 @@ p {
 
 #agb-wrapper {
   width: 80%;
-  margin: 0 auto;
   max-width: 1190px;
+  margin-top: 60px;
 }
 #agb h1 {
-  padding-top: 3rem;
   text-align: center;
   color: white;
 }
 
 @media only screen and (min-width: 1500px) {
   #agb-wrapper{
-    margin: 12.5rem 0;
+    height: 60vh;
   }
 }
 #agb p {
@@ -385,7 +376,6 @@ p {
   }
 }
 
-
 #agb h1,
 .lebenslauf-heading,
 #kontakt-heading {
@@ -396,7 +386,6 @@ p {
 }
 
 /* LEBENSLAUF  */
-
 #lebenslauf {
   background: rgb(56, 56, 148);
 }
@@ -498,10 +487,7 @@ textarea {
   width: 100%;
 }
 input[type="submit"] {
-  background: white;
-  border-radius: 3px;
-  border: solid 1px black;
-
+  background: red;
 }
 @media only screen and (max-width: 600px) {
   .bccFormular {
