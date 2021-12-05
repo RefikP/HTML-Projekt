@@ -198,6 +198,7 @@ hr {
     margin: 0 auto;
   }
   #hello {
+    font-size: small;
     margin-top: 0;
     margin-bottom: 1rem;
     padding: 0;
@@ -241,20 +242,20 @@ hr {
 /* impressum */
 
 #impressum {
-  height: 78vh;
+  height: 95vh;
   background-color: rgb(56, 56, 148);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 #impressum h1 {
-  text-align: center;
   color: white;
   margin-top: 60px;
 }
 
-#upper-text{
-  text-align: center;
+#lower-textImp{
+  line-height: 150%;
+  margin: 5%;
 }
 
 p {
@@ -278,7 +279,6 @@ p {
 }
 .det-heading {
   margin: 0 auto;
-  text-align: center;
 }
 
 .det-heading,
@@ -287,14 +287,13 @@ p {
 }
 .det-para {
   margin: 0 auto;
-  text-align: center;
   margin-top: 2rem;
   margin-bottom: 4rem;
+  line-height: 150%;
 }
 
 .det-sub-heading {
   margin: 0 auto;
-  text-align: center;
 }
 @media only screen and (min-width: 1200px) {
   :root {
@@ -339,8 +338,8 @@ p {
   margin-top: 60px;
 }
 #agb h1 {
-  text-align: center;
   color: white;
+  text-align: center;
 }
 
 @media only screen and (min-width: 1500px) {
@@ -351,12 +350,13 @@ p {
 #agb p {
   padding-top: 3rem;
   max-width: 30rem;
-  text-align: center;
   margin: 0 auto;
+  line-height: 150%;
 }
 #lower-text {
   padding-top: 2rem;
-  text-align: center;
+  line-height: 150%;
+
 }
 
 @media only screen and (min-width: 1200px) {
